@@ -4,7 +4,8 @@ import {
   CalendarCheck, 
   Headphones, 
   HeartCrack, 
-  HeartHandshake 
+  HeartHandshake,
+  Users
 } from 'lucide-react';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -34,32 +35,38 @@ const Services = () => {
     {
       title: "Share Your Feelings",
       description: "Unlimited text-based chat support with a dedicated listener who responds throughout the day",
-      price: "$20 per day",
+      price: "$39 per month",
       icon: MessageSquare
     },
     {
       title: "Regular Check-ins",
       description: "We provide scheduled updates and follow-ups to ensure you're feeling supported",
-      price: "$50 per day",
+      price: "$79 per month",
       icon: CalendarCheck
     },
     {
       title: "Voice-to-Voice Connection",
       description: "Talk through your story and feelings with a compassionate listener in a personal call",
-      price: "$100 per day",
+      price: "$129 per month",
       icon: Headphones
     },
     {
       title: "Healing After Heartbreak",
       description: "Specialized support to help process emotions and navigate the journey after a relationship ends",
-      price: "$30 per day",
+      price: "$59 per month",
       icon: HeartCrack
     },
     {
       title: "Marriage & Love Advice",
       description: "Professional insights and strategies for nurturing healthy relationships",
-      price: "$50 per week",
+      price: "$89 per month",
       icon: HeartHandshake
+    },
+    {
+      title: "Friendship Building",
+      description: "Guided support to develop meaningful connections and improve your social skills in a comfortable environment",
+      price: "$49 per month",
+      icon: Users
     }
   ];
 

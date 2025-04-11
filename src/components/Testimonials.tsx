@@ -6,19 +6,19 @@ const testimonials = [
     name: "Alex S.",
     title: "Regular user",
     content: "GentleVoice has been my lifeline during difficult times. Having someone who truly listens without judgment has helped me process my emotions in ways I never thought possible.",
-    image: "/placeholder.svg"
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200&h=200"
   },
   {
     name: "Jordan M.",
     title: "Breakup support client",
     content: "After my relationship ended, I felt completely lost. The specialized breakup support helped me navigate my feelings and eventually find peace. Worth every penny.",
-    image: "/placeholder.svg"
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200"
   },
   {
     name: "Taylor K.",
     title: "Monthly subscriber",
     content: "The regular check-ins have become a crucial part of maintaining my mental wellbeing. My dedicated listener remembers details about my life that make me feel truly heard.",
-    image: "/placeholder.svg"
+    image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=200&h=200"
   }
 ];
 
