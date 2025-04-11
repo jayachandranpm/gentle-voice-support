@@ -1,9 +1,6 @@
-
 import { Button } from '@/components/ui/button';
-
 const Hero = () => {
-  return (
-    <section id="home" className="pt-28 pb-20 md:pt-40 md:pb-28">
+  return <section id="home" className="pt-28 pb-20 md:pt-40 md:pb-28">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 mb-10 md:mb-0">
@@ -25,17 +22,11 @@ const Hero = () => {
           <div className="w-full md:w-1/2">
             <div className="relative">
               <div className="bg-accent rounded-full absolute -z-10 w-[500px] h-[500px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-60 blur-3xl"></div>
-              <img 
-                src="/placeholder.svg"
-                alt="People connecting" 
-                className="w-full h-auto rounded-xl shadow-xl max-w-md mx-auto"
-              />
+              <img alt="People connecting" className="w-full h-auto rounded-xl shadow-xl max-w-md mx-auto" src="/lovable-uploads/36d751be-85e3-4323-be3f-422b32f1842f.png" />
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
