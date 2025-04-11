@@ -26,7 +26,7 @@ const Header = () => {
           <a href="#how-it-works" className="font-inter text-gray-700 hover:text-primary transition-colors">How It Works</a>
           <a href="#testimonials" className="font-inter text-gray-700 hover:text-primary transition-colors">Testimonials</a>
           <a href="#contact" className="font-inter text-gray-700 hover:text-primary transition-colors">Contact Us</a>
-          <Button className="bg-primary hover:bg-primary/90">
+          <Button className="bg-primary hover:bg-primary/90 text-white">
             Start Sharing Today
           </Button>
         </nav>
@@ -52,7 +52,7 @@ const Header = () => {
             <a href="#how-it-works" className="font-inter text-gray-700 hover:text-primary transition-colors py-2">How It Works</a>
             <a href="#testimonials" className="font-inter text-gray-700 hover:text-primary transition-colors py-2">Testimonials</a>
             <a href="#contact" className="font-inter text-gray-700 hover:text-primary transition-colors py-2">Contact Us</a>
-            <Button className="bg-primary hover:bg-primary/90 w-full">
+            <Button className="bg-primary hover:bg-primary/90 text-white w-full">
               Start Sharing Today
             </Button>
           </div>
